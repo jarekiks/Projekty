@@ -1,0 +1,5 @@
+﻿Witaj <%txtBoxFirstNameRegistration.Text%><br  /><br  />
+
+Rejestracja prawie gotowa, musisz jeszcze potwierdzić swój adres e-mail [ <a href = "<%WeryfikacjaURL%>"  . </a> ] <br  /><br  />
+Po kliknięciu w link zostaniesz przeniesiony do okna logowania. <br  /><br  />
+Dziękujemy za rejestrację.

@@ -1,0 +1,363 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yu Gothic';
+}
+
+header {
+    background-color: #333;
+    height: 14vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            padding: 7px 20px;
+            border-radius: 10px 5px;
+        }
+
+            ul li a:hover {
+                background-color: #fae8bb;
+                color: #000;
+            }
+
+        ul li.active a {
+            background-color: #fae8bb;
+            color: #000;
+        }
+
+.btnLogout {
+    background-color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 10px 5px;
+}
+
+    .btnLogout:hover {
+        background-color: #fae8bb;
+        color: #000;
+    }
+
+    .btnLogout:active {
+        background-color: #fae8bb;
+        color: #000;
+    }
+
+ul1 {
+    padding: 200px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+    ul1 li {
+        display: inline-block;
+    }
+
+        ul1 li::before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            width: 0;
+            background-color: #00a2ff;
+            transition: 0.7s all;
+        }
+
+        ul1 li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 17px 20px;
+            border-radius: 10px 5px;
+            transition: 0.7s all;
+        }
+
+            ul1 li a:hover {
+                background-color: #fae8bb;
+                color: #000;
+            }
+
+.logo {
+    position: absolute;
+    left: 46.9%;
+    width: 100px;
+    height: 100px;
+}
+
+.table {
+    background-image: url(bckgrnd.png);
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+}
+
+.tablee {
+    background-color: #e9eff2;
+    left: 43.5%;
+    top: 40%;
+    position: absolute;
+    padding: 10px 20px 70px 20px;
+    font-size: 20px;
+    box-shadow: 0 0 6px #333;
+    width: 200px;
+    height: 180px;
+}
+
+.table2 {
+    background-color: #e9eff2;
+    left: 38%;
+    top: 25%;
+    position: absolute;
+    padding: 10px 0px 70px 30px;
+    font-size: 20px;
+    box-shadow: 0 0 6px #333;
+    width: 450px;
+    height: 490px;
+}
+
+.tableA {
+    background-color: #e9eff2;
+    left: 41%;
+    top: 25%;
+    position: absolute;
+    padding: 10px 10px 70px 10px;
+    font-size: 25px;
+    box-shadow: 0 0 6px #333;
+    width: 350px;
+    height: 480px;
+}
+
+input[type='text'], input[type='login'], input[type='password'], input[type='number'], input[type='email'], select, textarea {
+    border: 1px solid #E2E2E2;
+    width: 90%;
+    padding: 3px;
+}
+
+
+body {
+    background-image: url(bckgrnd.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #000;
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+    .footer ul li li {
+        text-align: right;
+    }
+
+.gridView {
+    background-color: #f5ead0;
+    color: #000;
+    width: 1080px;
+    height: 600px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 0 4px 1px black inset;
+    margin: 0 auto 0 50px;
+}
+
+    .gridView tr:nth-child(even) {
+        background-color: #f2f2f2;
+        box-shadow: 0 0 4px 1px black inset;
+    }
+
+.button {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+.btn {
+    background-color: #007EE5;
+    border: 0;
+    margin-top: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 200px;
+}
+
+.btnn {
+    background-color: #007EE5;
+    border: 0;
+    padding: 2px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 450px;
+}
+
+.btn1 {
+    background-color: #007EE5;
+    border: 0;
+    padding: 2px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 340px;
+    margin-top: 32%;
+}
+
+.btn2 {
+    background-color: #007EE5;
+    border: 0;
+    padding: 2px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 340px;
+    margin-top: 0%;
+}
+
+.btnsearch {
+    background-color: #FFE59D;
+    border: 1px solid #000;
+    padding: 0px 15px;
+    top: 70%;
+    left: 50%;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.departments {
+    padding: 100px 30px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+
+.dep {
+    background-color: #FFE59D;
+    border: 2px solid #000;
+}
+
+.search {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 600px;
+    padding: 20px;
+    background-color: #fae8bb;
+    border-radius: 50px;
+}
+
+.content {
+    transform: translate(20%, 0%);
+}
+
+.tableee {
+    background-color: #e9eff2;
+    position: absolute;
+    text-align: center;
+    padding: 10px 15px 20px 15px;
+    font-size: 19px;
+    box-shadow: 0 0 6px #333;
+    width: 360px;
+    height: 380px;
+    margin: 1% auto auto 40%;
+}
+
+.homepage {
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnUserLogin {
+    background-color: #2fa0fc;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 360px;
+}
+
+.btnUserLogin:hover {
+    background-color: #0b70c2;
+}
+
+.btnDziekanLogin {
+    background-color: #2fa0fc;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 360px;
+    margin-bottom: 1%;
+}
+
+.btnDziekanLogin:hover {
+    background-color: #0b70c2;
+}
+
+.btnAdminLogin {
+    background-color: #2fa0fc;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    width: 360px;
+    margin-bottom: 1%;
+}
+
+.btnAdminLogin:hover{
+    background-color: #0b70c2;
+}
